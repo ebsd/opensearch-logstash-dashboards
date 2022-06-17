@@ -47,6 +47,7 @@ elasticsearch.hosts: ["https://192.168.56.137:9200","https://192.168.56.138:9200
 
 ## Run Opensearch on each nodes
 
+Default creds : admin/admin
 
 ```
 $ cd opensearch-node[1|2|3]
@@ -61,6 +62,8 @@ $ docker compose up -d
 ```
 
 ## Run Dashboards
+
+Default creds : admin/admin
 
 ```
 $ cd opensearch-dashboards
