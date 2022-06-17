@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  kibana:
+    image: opensearchproject/opensearch-dashboards:latest
+    container_name: kibana
+    environment:
+      SERVER_NAME: kibana.local
+    volumes:
+      - ./config/kibana.yml:/usr/share/kibana/config/kibana.yml
+    network_mode: "host"
+    ports:
+      - "5601:5601"
+    extra_hosts:
+      - "kibana.local:192.168.56.137"
+

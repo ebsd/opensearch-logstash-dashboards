@@ -1,0 +1,14 @@
+version: '2'
+services:
+  logstash:
+    image: opensearchproject/logstash-oss-with-opensearch-output-plugin:latest
+    ports:
+      - 55044:55044
+    volumes:
+      - logstash_data:/usr/share/logstash/data
+      - ./pipeline/:/usr/share/logstash/pipeline/
+
+volumes:
+  logstash_data:
+    driver: local
+

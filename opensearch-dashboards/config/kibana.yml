@@ -1,0 +1,7 @@
+server.host: "kibana.local"
+elasticsearch.hosts: ["https://192.168.56.137:9200","https://192.168.56.138:9200","https://192.168.56.139:9200"]
+elasticsearch.username: "admin"
+elasticsearch.password: "admin"
+#server.ssl.enabled: true
+#server.ssl_certificate_verification: false
+elasticsearch.ssl.verificationMode: none
