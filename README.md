@@ -12,7 +12,8 @@ Here are some quick setup to start a cluster. You'll need to work on :
 
 ## Configure Opensearch docker-compose.yaml on 3 nodes
 
-In each `opensearch-node[1|2|3]/docker-compose.yaml` directory, modify at least :
+Copy opensearch-node[1|2|3] directory to  VM[1|2|3] and then :
+in each `opensearch-node[1|2|3]/docker-compose.yaml` directory on each VM, modify at least :
 
 ```
     extra_hosts:
