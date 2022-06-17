@@ -7,7 +7,7 @@ Here are some quick setup to start a cluster. You'll need to work on :
 ## Prerequisite
 
 1. At least 3 VM (for 3 opensearch nodes). Place logstash and dashboards where you want.
-2. Docker install
+2. Docker installed
 3. You'll probably need to set up : `sysctl -w vm.max_map_count=262144` for opensearch running.
 
 ## Configure Opensearch docker-compose.yaml on 3 nodes
