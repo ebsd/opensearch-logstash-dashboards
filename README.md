@@ -1,5 +1,7 @@
 # Cluster Opensearch (elasticsearch) + logstash + dashboards (Kibana)
 
+Here are some quick setup to start a cluster. You'll need to work on ssl verify enabling. 
+
 ## Prerequisite
 
 At least 3 VM (for 3 opensearch nodes). Place logstash and dashboards where you want.
