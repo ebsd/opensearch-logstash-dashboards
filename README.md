@@ -39,7 +39,7 @@ In `docker-compose.yaml`, set the Kibana hostname and IP.
       - "kibana.local:192.168.56.137"
 ```
 
-And in `config/kibana.yml`, set de Opensearch nodes IP.
+And in `./config/kibana.yml`, set de Opensearch nodes IP.
 ```
 elasticsearch.hosts: ["https://192.168.56.137:9200","https://192.168.56.138:9200","https://192.168.56.139:9200"]
 ```
