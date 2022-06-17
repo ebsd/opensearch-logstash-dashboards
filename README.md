@@ -1,4 +1,4 @@
-# Cluster Opensearch (elasticsearch) + logstash + dashboards (Kibana)
+# 3 nodes Opensearch cluster + logstash + dashboards
 
 Here are some quick setup to start a cluster. You'll need to work on :
 - ssl verify enabling
