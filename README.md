@@ -33,7 +33,7 @@ Link you logstash configuration and place your config file in `./pipeline/`. Min
 
 ## Configure Daskboards
 
-In `docker-compose.yaml`, set the Kibana host IP.
+In `docker-compose.yaml`, set the Kibana hostname and IP.
 ```
     extra_hosts:
       - "kibana.local:192.168.56.137"
