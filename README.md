@@ -63,7 +63,8 @@ $ docker compose up -d
 
 ## Run Dashboards
 
-Default creds : admin/admin
+- Default creds : admin/admin
+- url : `http://your-ip:5601/`
 
 ```
 $ cd opensearch-dashboards
